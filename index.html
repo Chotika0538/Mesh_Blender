@@ -111,7 +111,7 @@
         const miku_geometry = new THREE.BufferGeometry();
         miku_geometry.setAttribute('position', new THREE.Float32BufferAttribute(miku_vertices, 3));
         miku_geometry.computeVertexNormals();
-        const mikuMaterial = new THREE.MeshStandardMaterial({ color: 0xaee1e1 });
+        const mikuMaterial = new THREE.MeshStandardMaterial({ color: 0x0eb086 });
         const miku = new THREE.Mesh(miku_geometry, mikuMaterial);
         miku.position.set(0, 0.5, 0);
         miku.castShadow = true; // ✅ กล่องส่งเงา
